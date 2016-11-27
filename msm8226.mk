@@ -163,7 +163,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += qcom.bluetooth.soc=smd
 
 # Imgdiff
-PRODUCT_PACKAGES := imgdiff
+# PRODUCT_PACKAGES := imgdiff
 
 ifeq ($(BOARD_HAS_NFC), true)
 # NFC packages
